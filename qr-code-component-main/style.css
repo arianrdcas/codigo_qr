@@ -1,0 +1,46 @@
+body{
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta el cuerpo al 100% de la altura de la ventana */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+}
+
+.container{
+        width: 250px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+    justify-content: center;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.first_paragraph{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.second_paragraph{
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:hsl(220, 1%, 60%);
+    font-weight: 400;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
